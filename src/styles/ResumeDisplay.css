@@ -1,0 +1,57 @@
+/* General styles for the resume container */
+.resume-display {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Classic layout styles */
+  .resume-display.classic-layout {
+    /* Example styles for classic layout */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Modern layout styles */
+  .resume-display.modern-layout {
+    /* Example styles for modern layout */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #ffffff;
+  }
+  
+  /* Modern layout - Double-sided paper effect */
+  .resume-display.modern-layout .resume-content {
+    width: 48%;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-display.modern-layout .resume-content:nth-child(2) {
+    border-left: none; /* Optional: remove border between two sides */
+  }
+  /* Advanced modern layout styles */
+.resume-display.modern-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.resume-display.modern-layout .resume-content {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .resume-display.modern-layout {
+    grid-template-columns: 1fr;
+  }
+}
