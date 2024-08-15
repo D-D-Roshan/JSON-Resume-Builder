@@ -12,7 +12,7 @@ A simple and user-friendly resume builder built with React.js that allows users 
 
 ## Screenshots
 
-![Resume Builder Screenshot](link-to-your-screenshot.png)
+![Resume Builder Screenshot](https://github.com/D-D-Roshan/JSON-Resume-Builder/blob/main/screenshot.png)
 
 *Example of the resume builder interface.*
 
